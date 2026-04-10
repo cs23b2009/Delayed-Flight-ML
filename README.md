@@ -100,6 +100,3 @@ docker run -p 8000:8000 skyguard-api
   }
 }
 ```
-
-## 📝 Author
-Genuinely built and refactored by a final-year student with a passion for Data Science and Software Architecture.
