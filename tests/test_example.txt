@@ -1,0 +1,17 @@
+curl -X POST "http://localhost:8000/predict" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "origin":"JFK",
+    "dest":"LAX",
+    "airline":"AA",
+    "month":7,
+    "day_of_week":2,
+    "sched_dep_hour":13,
+    "distance":2475.0,
+    "temperature_origin":28.5,
+    "wind_speed_origin":4.1,
+    "visibility_origin":10.0,
+    "temperature_dest":22.0,
+    "wind_speed_dest":3.5,
+    "visibility_dest":9.0
+  }'
